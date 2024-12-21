@@ -1,0 +1,116 @@
+body{
+	font-family: sans-serif;
+	font-size: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	margin: 0px;
+	width:100%;
+ 	background-image:url(/img/ps2w_blocks.png);
+	background-size:cover;
+ 	background-attachment:fixed;
+ 	color:white;
+}
+
+header{
+	background:#a525f5;
+	opacity: 90%;
+	font-size: 55px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 35px;
+	padding-bottom: 40px;
+	border-radius: 3px;
+}
+
+aside{
+	position: fixed;
+	margin-left: 15px;
+}
+
+main{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 2%;
+}
+
+.imgtext{
+	display:flex;
+}
+
+.imgtext1{
+	margin-left:5px;
+	display:flex;
+	flex-direction: column;
+}
+
+table{
+	margin-top: 15px;
+	text-align: center;
+	border-collapse: collapse;
+	background-color:#4a109c;
+	border: 2px solid rgb(140 140 140);
+	letter-spacing: 1px;
+}
+
+th,
+td {
+	border: 1px solid rgb(160 160 160);
+	padding: 8px 10px;
+}
+
+.lists{
+	display: flex;
+}
+
+.old{
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+button{
+	margin: 4px 2px;
+	font-size: 25px;
+	padding: 15px 32px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.george2ch{
+	margin-top: 15px;
+	display: inline-flex;
+}
+
+.vkclip{
+	display: flex;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 40px;
+	z-index: 99;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	background-color: #a525f5;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 2px;
+}
+
+#myBtn:hover {
+ 	background-color: #4a109c;
+}
+
+footer{
+	margin-top: 2%;
+	position: static;
+	text-align: center;
+}
